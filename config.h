@@ -65,10 +65,10 @@ static const struct arg args[] = {
 	/* function format          argument */
 	//{ datetime, "%s",           "%F %T" },
     //{ netspeed_rx, "%sB/s  ", "enp2s0" },
-  { ram_perc, "^--c#FF493E^ :%s%% ", "NULL" },
-  { cpu_perc, "^--c#48E585^ :%s%% ", "NULL" },
-	{ run_command, "^--c#FF9F00^ :%4s ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
-	{ wifi_perc, "^--c#C681F1^:%3s%% ", "wlp3s0"  },
-	{ battery_perc, " ^--c#c5c8c6^:%s%% ", "BAT0" }, 
-	{ datetime, "^--c#FFF100^%s" , "%a %b %d %I:%M %p" },
+  { ram_perc, "^--c#FF6266^ :%s%% ", "NULL" },
+  { cpu_perc, "^--c#FF62DF^ :%s%% ", "NULL" },
+	{ run_command, "^--c#A3E578^ :%4s ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ wifi_perc, "^--c#1BA4F1^:%3s%% ", "wlp3s0"  },
+	{ battery_perc, " ^--c#CACACA^ :%s%% ", "BAT0" }, 
+	{ datetime, "^--c#fba922^%s" , "%a %b %d %I:%M %p" },
 };
